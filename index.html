@@ -4,91 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Fresco - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #222;
-            color: #fff;
-            padding: 2rem;
-            text-align: center;
-        }
-        section {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            color: #222;
-        }
-        .project {
-            margin-bottom: 2rem;
-        }
-        .project img {
-            max-width: 100%;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }
-        footer {
-            background: #222;
-            color: #ccc;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 3rem;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Juan Fresco</h1>
-        <p>Analista de datos junior - Desarrollador de soluciones prácticas</p>
+        <div class="container">
+            <h1>Juan Fresco</h1>
+            <p>Analista de Datos Jr. | Desarrollador Python | Soluciones prácticas para negocios</p>
+            <div class="contacto">
+                <a href="mailto:juanfresco1@gmail.com">juanfresco1@gmail.com</a> |
+                <a href="https://github.com/juanfrescodev" target="_blank">GitHub</a>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <h2>Sobre mí</h2>
-        <p>Soy Juan Fresco, apasionado por la automatización, el análisis de datos y la creación de soluciones digitales para resolver necesidades reales. Actualmente en proceso de transición hacia el mundo freelance y proyectos con inteligencia artificial aplicada.</p>
+    <section class="proyectos">
+        <div class="container">
+            <h2>Proyectos Destacados</h2>
+
+            <div class="proyecto">
+                <img src="assets/Preview.png" alt="App gestión Maktub">
+                <div>
+                    <h3>App Gestión Escuela de Danzas Maktub</h3>
+                    <p>Desarrollé una aplicación web completa en <strong>Streamlit y Python</strong> para gestionar alumnas, pagos, alquileres y asistencia. Proyecto real aplicado en una escuela de danzas.</p>
+                    <a href="https://github.com/juanfrescodev/app-maktub" target="_blank">Ver en GitHub</a> |
+                    <a href="https://maktubapp.streamlit.app/" target="_blank">Ver App Online</a>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="assets/ventas_preview.png" alt="Análisis ventas y publicidad">
+                <div>
+                    <h3>Análisis de Ventas y Publicidad</h3>
+                    <p>Caso de estudio de análisis de datos con <strong>Pandas y Plotly</strong>. Exploración de campañas de publicidad en TV, radio y diarios para optimizar inversiones y maximizar ventas.</p>
+                    <a href="https://github.com/juanfrescodev/analisis-ventas-publicidad" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <section>
-        <h2>Proyectos destacados</h2>
-        
-        <div class="project">
-            <h3>App de Gestión de Alumnas - Maktub</h3>
-            <img src="assets/Preview.png" alt="Preview Maktub App">
-            <p>Aplicación web para gestionar alumnas, pagos y asistencia de la escuela de danzas Maktub. Incluye funciones de gestión, reportes y dashboards. Desarrollada en Python con Streamlit y pandas.</p>
-            <p><a href="https://github.com/juanfrescodev/app-maktub" target="_blank">Ver repositorio en GitHub</a></p>
-            <p><a href="https://maktubapp.streamlit.app/" target="_blank">Probar la app online</a></p>
-        </div>
-
-
-        <div class="project">
-            <h3>Análisis de Ventas y Publicidad</h3>
-            <img src="assets/ventas_preview.png" alt="Preview Análisis de Ventas">
-            <p>Proyecto de análisis de datos de campañas publicitarias en TV, radio y diarios, evaluando la efectividad de cada canal sobre las ventas de una empresa ficticia. Incluye visualización de datos, reportes automáticos y exportación a HTML.</p>
-            <p><a href="https://github.com/juanfrescodev/analisis-ventas-publicidad" target="_blank">Ver repositorio en GitHub</a></p>
-        </div>
-
-        <div class="project">
-            <h3>Próximamente</h3>
-            <p>Estoy desarrollando nuevos proyectos de análisis de datos y automatización con Python. ¡Pronto estarán aquí!</p>
+    <section class="habilidades">
+        <div class="container">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Streamlit</li>
+                <li>Plotly</li>
+                <li>Git & GitHub</li>
+                <li>Análisis de Datos</li>
+            </ul>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Juan Fresco | <a href="https://github.com/juanfrescodev" target="_blank">GitHub</a></p>
+        <div class="container">
+            <p>© 2024 Juan Fresco | Portfolio Profesional</p>
+        </div>
     </footer>
 
 </body>
