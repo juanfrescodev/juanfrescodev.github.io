@@ -82,6 +82,14 @@ header p {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.skills li span {
+    background: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
 footer {
     background: #222;
     color: #aaa;
