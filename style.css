@@ -161,6 +161,41 @@ header p {
       background-color: #004c99;
     }
 
+.servicios {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.servicios h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.servicios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: left;
+}
+
+.servicios li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.servicios li::before {
+    content: "✔";
+    color: #0066cc;
+    position: absolute;
+    left: 0;
+}
+
 /* ==== FOOTER ==== */
 footer {
     background: #222;
