@@ -4,7 +4,7 @@
     padding: 10px;
   }
 
-  .project {
+  .proyecto {
     display: block;
     width: 100%;
     margin-bottom: 20px;
@@ -14,7 +14,7 @@
     text-align: center;
   }
 
-  img {
+  .proyecto img {
     max-width: 100%;
     height: auto;
   }
@@ -71,11 +71,6 @@ header p {
     margin-bottom: 30px;
     display: flex;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.proyecto img {
-    width: 300px;
-    object-fit: cover;
 }
 
 .proyecto div {
