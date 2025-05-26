@@ -141,26 +141,26 @@ footer {
     h1, h2, h3 {
         text-align: center;
     }
-    .contacto-section {
+    .contact-section {
           text-align: center;
           padding: 60px 20px;
           background-color: #f9f9f9;
           border-top: 1px solid #ddd;
 }
 
-    .contacto-section h2 {
+    .contact-section h2 {
       font-size: 28px;
       margin-bottom: 10px;
       color: #222;
     }
     
-    .contacto-section p {
+    .contact-section p {
       font-size: 18px;
       margin: 5px 0;
       color: #555;
     }
     
-    .contacto-buttons {
+    .contact-buttons {
       margin-top: 20px;
       display: flex;
       justify-content: center;
@@ -168,7 +168,7 @@ footer {
       gap: 15px;
     }
     
-    .contacto-btn {
+    .contact-btn {
       display: inline-block;
       background-color: #0066cc;
       color: white;
@@ -179,7 +179,7 @@ footer {
       transition: background-color 0.3s;
     }
     
-    .contacto-btn:hover {
+    .contact-btn:hover {
       background-color: #004c99;
     }
 }
