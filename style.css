@@ -1,3 +1,26 @@
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .project {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -6,6 +29,7 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
