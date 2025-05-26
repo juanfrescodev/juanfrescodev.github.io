@@ -1,26 +1,4 @@
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
-
-  .proyecto {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  h1, h2, h3 {
-    text-align: center;
-  }
-
-  .proyecto img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-
+/* ==== ESTILOS GENERALES ==== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -64,17 +42,26 @@ header p {
     margin-bottom: 20px;
 }
 
+/* ==== PROYECTOS ==== */
 .proyecto {
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 30px;
     display: flex;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.proyecto img {
+    width: 300px;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 
 .proyecto div {
     padding: 20px;
+    flex: 1;
 }
 
 .proyecto h3 {
@@ -86,6 +73,7 @@ header p {
     text-decoration: none;
 }
 
+/* ==== HABILIDADES ==== */
 .habilidades ul {
     list-style: none;
     padding: 0;
@@ -98,7 +86,7 @@ header p {
     background: #fff;
     padding: 10px 20px;
     border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .skills li span {
@@ -109,10 +97,48 @@ header p {
     display: inline-block;
 }
 
+/* ==== FOOTER ==== */
 footer {
     background: #222;
     color: #aaa;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+/* ==== RESPONSIVE ==== */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .proyecto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyecto img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .proyecto div {
+        padding: 10px;
+    }
+
+    .habilidades ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habilidades li {
+        width: 80%;
+        text-align: center;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
 }
