@@ -1,9 +1,22 @@
 /* ==== ESTILOS GENERALES ==== */
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #333;
     background: #f5f5f5;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+h1, h2, h3 {
+    text-align: center;
 }
 
 .container {
@@ -31,7 +44,7 @@ header p {
 }
 
 .contacto a {
-    color: #ffcc00;
+    color: #ffd700;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -89,13 +102,55 @@ header p {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.skills li span {
+.habilidades li span {
     background: #f0f0f0;
     padding: 5px 10px;
     border-radius: 10px;
     margin: 5px;
     display: inline-block;
 }
+
+    .contact-section {
+          text-align: center;
+          padding: 60px 20px;
+          background-color: #f9f9f9;
+          border-top: 1px solid #ddd;
+}
+
+    .contact-section h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+    
+    .contact-section p {
+      font-size: 18px;
+      margin: 5px 0;
+      color: #555;
+    }
+    
+    .contact-buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    
+    .contact-btn {
+      display: inline-block;
+      background-color: #0066cc;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    
+    .contact-btn:hover {
+      background-color: #004c99;
+    }
 
 /* ==== FOOTER ==== */
 footer {
@@ -141,45 +196,5 @@ footer {
     h1, h2, h3 {
         text-align: center;
     }
-    .contact-section {
-          text-align: center;
-          padding: 60px 20px;
-          background-color: #f9f9f9;
-          border-top: 1px solid #ddd;
-}
 
-    .contact-section h2 {
-      font-size: 28px;
-      margin-bottom: 10px;
-      color: #222;
-    }
-    
-    .contact-section p {
-      font-size: 18px;
-      margin: 5px 0;
-      color: #555;
-    }
-    
-    .contact-buttons {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-    
-    .contact-btn {
-      display: inline-block;
-      background-color: #0066cc;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-    
-    .contact-btn:hover {
-      background-color: #004c99;
-    }
 }
