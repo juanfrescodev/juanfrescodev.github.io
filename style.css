@@ -164,7 +164,7 @@ header p {
 
 .covered-topics li::before {
   content: "📌";
-  margin-right: 8px;
+  margin-right: 0px;
 }
 
 
