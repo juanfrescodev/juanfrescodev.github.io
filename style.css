@@ -154,19 +154,19 @@ header p {
 
 .cert-section h3 {
   font-size: 1.2em;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .covered-topics {
   list-style: none;
   padding: 0;
-  margin-top: 10px;  
+  margin-top: 0px;  
 }
 
 .covered-topics li {
   position: relative;
-  padding-left: 28px;
-  margin-bottom: 10px;
+  padding-left: 0px;
+  margin-bottom: 0px;
   font-size: 1.05rem;
   color: #444;
   line-height: 1.5;
