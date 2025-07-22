@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -95,6 +94,38 @@ header p {
     text-decoration: none;
 }
 
+/* ==== NUEVA SECCIÓN DE INSIGNIA ==== */
+.proyecto.certificado {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.proyecto.certificado img {
+    max-width: 200px; /* Tamaño adecuado para la insignia */
+    margin: 10px 0;
+    border: 4px solid #007bff; /* Borde azul */
+    border-radius: 10px;
+}
+
+.proyecto.certificado a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.proyecto.certificado a:hover {
+    background-color: #0056b3;
+}
+
 /* ==== HABILIDADES ==== */
 .habilidades ul {
     list-style: none;
@@ -119,47 +150,47 @@ header p {
     display: inline-block;
 }
 
-    .contact-section {
-          text-align: center;
-          padding: 60px 20px;
-          background-color: #f9f9f9;
-          border-top: 1px solid #ddd;
+.contact-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
 }
 
-    .contact-section h2 {
-      font-size: 28px;
-      margin-bottom: 10px;
-      color: #222;
-    }
-    
-    .contact-section p {
-      font-size: 18px;
-      margin: 5px 0;
-      color: #555;
-    }
-    
-    .contact-buttons {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-    
-    .contact-btn {
-      display: inline-block;
-      background-color: #0066cc;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-    
-    .contact-btn:hover {
-      background-color: #004c99;
-    }
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.contact-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #004c99;
+}
 
 .servicios {
     background-color: #fff;
@@ -211,11 +242,10 @@ footer {
         font-size: 15px;
         line-height: 1.6;
     }
-    
+
     .container {
         padding: 10px;
     }
-
 
     .proyecto {
         flex-direction: column;
@@ -227,7 +257,7 @@ footer {
         line-height: 1.6;
     }
 
-        header h1 {
+    header h1 {
         font-size: 2rem;
     }
 
@@ -261,6 +291,7 @@ footer {
         font-size: 0.9rem;
         padding: 15px;
     }
+
     .proyecto img {
         width: 100%;
         max-width: 100%;
@@ -270,9 +301,5 @@ footer {
     .proyecto div {
         padding: 10px;
     }
-
-    .habilidades ul {
-        flex-direction: column;
-        align-items: center;
-    }
 }
+
