@@ -161,11 +161,9 @@ header p {
   text-align: left;
   list-style: none;
   padding: 0;
-  margin-top: 0px;  
-  display: inline-block;
-  margin: 0 auto; 
+  margin: 0 auto;
+  max-width: 700px;
 }
-
 .covered-topics li {
   text-align: left;
   position: relative;
@@ -174,6 +172,8 @@ header p {
   font-size: 1.05rem;
   color: #444;
   line-height: 1.5;
+  padding-left: 25px;
+  position: relative;
 }
 
 .covered-topics li::before {
