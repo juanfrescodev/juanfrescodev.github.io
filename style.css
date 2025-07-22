@@ -162,11 +162,22 @@ header p {
   padding: 0;
 }
 
-.covered-topics li::before {
-  content: "📌";
-  margin-right: 0px;
+.covered-topics li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.5;
 }
 
+.covered-topics li::before {
+  content: "📌";
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1.5;
+}
 
 /* ==== HABILIDADES ==== */
 .habilidades ul {
