@@ -167,6 +167,7 @@ header p {
 }
 
 .covered-topics li {
+  text-align: left;
   position: relative;
   padding-left: 0px;
   margin-bottom: 0px;
