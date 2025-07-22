@@ -158,9 +158,12 @@ header p {
 }
 
 .covered-topics {
+  text-align: left;
   list-style: none;
   padding: 0;
   margin-top: 0px;  
+  display: inline-block;
+  margin: 0 auto; 
 }
 
 .covered-topics li {
