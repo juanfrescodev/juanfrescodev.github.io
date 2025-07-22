@@ -160,6 +160,7 @@ header p {
 .covered-topics {
   list-style: none;
   padding: 0;
+  margin-top: 10px;  
 }
 
 .covered-topics li {
