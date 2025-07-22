@@ -148,6 +148,24 @@ header p {
   background-color: #0056b3;
 }
 
+.cert-section {
+  margin-top: 20px;
+}
+
+.cert-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.covered-topics {
+  list-style: none;
+  padding: 0;
+}
+
+.covered-topics li::before {
+  content: "📌";
+  margin-right: 8px;
+}
 
 
 /* ==== HABILIDADES ==== */
